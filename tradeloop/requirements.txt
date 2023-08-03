@@ -1,0 +1,4 @@
+httpserver
+pybit
+requests
+supabase

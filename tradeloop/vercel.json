@@ -1,0 +1,56 @@
+{
+  "functions": {
+    "api/link.py": {
+      "memory": 128,
+      "maxDuration": 10
+    },
+    "api/refresh.py": {
+      "memory": 128,
+      "maxDuration": 10
+    },
+    "api/sync.py": {
+      "memory": 128,
+      "maxDuration": 10
+    },
+    "app/api/create-checkout-session/*": {
+      "memory": 192,
+      "maxDuration": 10
+    },
+    "app/api/create-portal-link/*": {
+      "memory": 192,
+      "maxDuration": 10
+    },
+    "app/api/webhooks/*": {
+      "memory": 192,
+      "maxDuration": 10
+    },
+    "app/*": {
+      "memory": 192,
+      "maxDuration": 10
+    },
+    "app/account/*": {
+      "memory": 192,
+      "maxDuration": 10
+    },
+    "app/auth/callback/*": {
+      "memory": 192,
+      "maxDuration": 10
+    },
+    "app/loop/*": {
+      "memory": 192,
+      "maxDuration": 10
+    },
+    "app/loop4/*": {
+      "memory": 192,
+      "maxDuration": 10
+    },
+    "app/pricing/*": {
+      "memory": 192,
+      "maxDuration": 10
+    },
+    "app/signin/*": {
+      "memory": 192,
+      "maxDuration": 10
+    }
+  }
+}
